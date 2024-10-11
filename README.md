@@ -49,13 +49,17 @@ Enter the required information and submit the form.
 Log in with the registered credentials to access the product listing.
 
 To stop and remove all containers, run:
+
 docker-compose down
+
 docker system prune -a
 
 Exit from the VM:
+
 exit
 
 And power off the VM:
+
 vagrant halt
 
 ## Contributing
