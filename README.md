@@ -27,10 +27,10 @@ The EMart application consists of the following components:
 ```bash
 git clone https://github.com/hariravendran/EMart-Dockerized-Microservices-E-Commerce-Solution
 ```bash
-
 (Unzip)
 ```bash
-cd EMart```bash
+cd EMart
+```bash
 
 2. Set Up the Environment
 Ensure that your Vagrant VM is powered off before starting.
