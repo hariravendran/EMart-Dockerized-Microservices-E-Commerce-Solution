@@ -48,7 +48,6 @@ Register a new user by clicking on the register link.
 Enter the required information and submit the form.
 Log in with the registered credentials to access the product listing.
 
-Cleanup
 To stop and remove all containers, run:
 docker-compose down
 docker system prune -a
