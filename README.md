@@ -25,54 +25,50 @@ The EMart application consists of the following components:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/hariravendran/EMart-Dockerized-Microservices-E-Commerce-Solution
+git clone https://github.com/hariravendran/EMart-Dockerized-Microservices-E-Commerce-Solution```bash
+
 (Unzip)
-cd EMart
+```bash
+cd EMart```bash
+
 2. Set Up the Environment
 Ensure that your Vagrant VM is powered off before starting.
 
 bash
-Copy code
 vagrant up
 vagrant ssh
 3. Build and Run the Application
 Navigate to the project directory and build the Docker containers:
 
 bash
-Copy code
 docker-compose up -d
 If you encounter any issues, you can build the images first:
 
 bash
-Copy code
 docker-compose build
 docker-compose up -d
-4. Access the Application
-Open your web browser and go to:
 
-arduino
-Copy code
-http://<your-vm-ip>
+4. Access the Application
+Open your web browser and go to:http://<your-vm-ip>
+
 5. User Registration and Login
 Register a new user by clicking on the register link.
 Enter the required information and submit the form.
 Log in with the registered credentials to access the product listing.
+
 Cleanup
 To stop and remove all containers, run:
 
 bash
-Copy code
 docker-compose down
 docker system prune -a
 Exit from the VM:
 
 bash
-Copy code
 exit
 And power off the VM:
 
 bash
-Copy code
 vagrant halt
 Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
@@ -83,7 +79,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgements
 Inspired by e-commerce platforms like Amazon and Flipkart.
 Built with modern technologies including Angular, Node.js, and Java.
-typescript
-Copy code
-
-Feel free to customize this template as needed, especially replacing `<your-repo-url>` with the actual U
