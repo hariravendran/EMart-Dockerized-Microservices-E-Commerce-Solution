@@ -25,7 +25,8 @@ The EMart application consists of the following components:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/hariravendran/EMart-Dockerized-Microservices-E-Commerce-Solution```bash
+git clone https://github.com/hariravendran/EMart-Dockerized-Microservices-E-Commerce-Solution
+```bash
 
 (Unzip)
 ```bash
