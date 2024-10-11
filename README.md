@@ -21,31 +21,22 @@ The EMart application consists of the following components:
 - [Docker Compose](https://docs.docker.com/compose/) for managing multi-container applications.
 - [Vagrant](https://www.vagrantup.com/) for VM management (optional).
 
-## Getting Started
+## Steps:
 
-### 1. Clone the Repository
-```bash
+1. Clone the Repository
 git clone https://github.com/hariravendran/EMart-Dockerized-Microservices-E-Commerce-Solution
-```bash
 (Unzip)
-```bash
 cd EMart
-```bash
 
 2. Set Up the Environment
 Ensure that your Vagrant VM is powered off before starting.
-
-bash
 vagrant up
 vagrant ssh
+
 3. Build and Run the Application
 Navigate to the project directory and build the Docker containers:
-
-bash
 docker-compose up -d
 If you encounter any issues, you can build the images first:
-
-bash
 docker-compose build
 docker-compose up -d
 
@@ -59,24 +50,21 @@ Log in with the registered credentials to access the product listing.
 
 Cleanup
 To stop and remove all containers, run:
-
-bash
 docker-compose down
 docker system prune -a
+
 Exit from the VM:
-
-bash
 exit
-And power off the VM:
 
-bash
+And power off the VM:
 vagrant halt
-Contributing
+
+## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 Inspired by e-commerce platforms like Amazon and Flipkart.
 Built with modern technologies including Angular, Node.js, and Java.
